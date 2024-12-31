@@ -1,0 +1,15 @@
+name: get_cover_art
+description: A command-line application to scrape music art covers from iTunes.
+version: 1.0.0
+repository: https://github.com/dgigantino/get_cover_art
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  http: ^1.2.2
+  args: ^2.6.0
+  path: ^1.9.1
+
+dev_dependencies:
+  lints: ^5.0.0
